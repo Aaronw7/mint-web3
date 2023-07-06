@@ -40,7 +40,7 @@ const NavBar = ({ accounts, setAccounts }) => {
         <Box margin="0 15px">Team</Box>
         <Spacer />
         {isConnected ? (
-          <Box margin="0 15px">Connected</Box>
+          <Box margin="0 15px" color="#DA53C3">Connected</Box>
         ) : (
           <Button
             backgroundColor="#DA53C3"
